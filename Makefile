@@ -10,7 +10,7 @@ hello-make : hello-make.o
 
 
 hello-make.o : src/hello-make.cpp
-	$(CC) -o hello-make.o $(CFLAGS) hello-make.cpp
+	$(CC) -o hello-make.o $(CFLAGS) src/hello-make.cpp
 
 
 clean :
